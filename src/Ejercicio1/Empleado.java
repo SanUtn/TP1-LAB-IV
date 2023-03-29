@@ -2,13 +2,13 @@ package Ejercicio1;
 
 public class Empleado {
 	
-	private static int id = 999;
-	
+	private final int id;
 	private String nombre;
 	private int edad;
 
+	private static int contLegajo = 1000;
 	
 	public Empleado() {
-		id++;
+		id=contLegajo++;
 	}
 }
