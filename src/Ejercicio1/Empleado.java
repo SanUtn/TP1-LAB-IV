@@ -27,7 +27,7 @@ public class Empleado {
 
 	public static int devuelveProximoID() {
 
-	 return contLegajo+1;
+	 return contLegajo;
 
 	}
 
