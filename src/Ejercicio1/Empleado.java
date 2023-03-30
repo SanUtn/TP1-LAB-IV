@@ -10,27 +10,35 @@ public class Empleado {
 	//ATRIBUTOS DE LA CLASE
 	private static int contLegajo = 1000;
 	
-	//CONSTRUCTOR
+	//CONSTRUCTORES
 	public Empleado() {
-		id=contLegajo++;
+		this.id = contLegajo++;
+		this.nombre = "sin nombre";
+		this.edad = 99;
+	}
+	
+	public Empleado( String nombre, int edad ) {
+		this.id = contLegajo++;
+		this.nombre = nombre;
+		this.edad = edad;
 	}
 
 	//GETTERS Y SETTERS 
 	public String getNombre() {
-		return nombre;
+		return this.nombre;
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
 	public int getEdad() {
-		return edad;
+		return this.edad;
 	}
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
 
 	public int getId() {
-		return id;
+		return this.id;
 	}
 }
