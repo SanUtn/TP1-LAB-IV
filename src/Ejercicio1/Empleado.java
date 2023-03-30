@@ -22,6 +22,14 @@ public class Empleado {
 		this.nombre = nombre;
 		this.edad = edad;
 	}
+	
+	//Metodos
+
+	public static int devuelveProximoID() {
+
+	 return contLegajo+1;
+
+	}
 
 	//GETTERS Y SETTERS 
 	public String getNombre() {
@@ -41,4 +49,12 @@ public class Empleado {
 	public int getId() {
 		return this.id;
 	}
+
+	@Override
+	public String toString() {
+		return "El empleado " + nombre + " tiene la edad: " + edad + ", su ID es " + id + ".";
+	}
+	
+	//toString
+	
 }
