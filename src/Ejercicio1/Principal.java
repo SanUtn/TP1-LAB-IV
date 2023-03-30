@@ -7,6 +7,7 @@ public class Principal {
 		
 		System.out.println(empleado1.toString());
 
+		System.out.println("El proximo ID es:"+Empleado.devuelveProximoID());
 	}
 
 }

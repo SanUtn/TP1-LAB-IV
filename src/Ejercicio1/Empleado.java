@@ -23,7 +23,7 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	//Metodos
+	//Metodos éstaticos 
 
 	public static int devuelveProximoID() {
 
