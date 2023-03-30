@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 public class Empleado {
 	
@@ -50,11 +50,12 @@ public class Empleado {
 		return this.id;
 	}
 
+	//METODO TOSTRING()
 	@Override
 	public String toString() {
-		return "El empleado " + nombre + " tiene la edad: " + edad + ", su ID es " + id + ".";
+		return "El empleado " + nombre + " tiene " + edad + " años y su ID es el número " + id + ".";
 	}
 	
-	//toString
+	
 	
 }
