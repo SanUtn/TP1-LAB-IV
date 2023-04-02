@@ -4,6 +4,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		//Creacion del vector de 5 Objetos tipo Empleado y seteandolo de diferentes maneras. 
 		Empleado [] empleados = new Empleado [5];
 		empleados[0] = new Empleado();
 		empleados[0].setNombre("Josefina");
@@ -16,12 +17,12 @@ public class Principal {
 		empleados[4] = new Empleado("Pedro", 45);
 		
 
-		//recorremos el array y mostramos cada uno
+		//Recorremos el array para mostrar cada objeto tipo Empleado.
 		for (Empleado empleado : empleados) {
 			System.out.println(empleado.toString());
 			
 		}
-		
+		//Mostramos por cartel el Próximo ID
 		System.out.println("El proximo ID es: "+ Empleado.devuelveProximoID());
 		
 	}

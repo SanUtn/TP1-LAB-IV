@@ -23,8 +23,7 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	//Metodos éstaticos 
-
+	//METODOS ÉSTATICOS
 	public static int devuelveProximoID() {
 
 	 return contLegajo;
@@ -55,7 +54,4 @@ public class Empleado {
 	public String toString() {
 		return "El empleado " + nombre + " tiene " + edad + " años y su ID es el número " + id + ".";
 	}
-	
-	
-	
 }
